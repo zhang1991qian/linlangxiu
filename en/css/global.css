@@ -1,0 +1,139 @@
+*{margin:0px;padding:0px;}
+body{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+.content{width:1200px;margin:0 auto;}
+.header{background:#fff}
+ ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	/* 去掉下划线（最核心的默认样式） */
+	text-decoration: none;
+	/* 继承父元素颜色（取消默认蓝色/紫色） */
+	color: inherit;
+	/* 清除点击后的高亮框（部分浏览器） */
+	outline: none;
+	/* 清除点击态的背景/边框（部分浏览器） */
+	-webkit-tap-highlight-color: transparent; /* 移动端 Safari 高亮 */
+}
+.header a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.header .logoBox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .logo img{height: 100px;}
+.header .contactBox{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .contactBox .lanBox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* width: 200px; */
+}
+.header .contactBox .lanBox .chBtn{
+	border-right: 1px solid #ccc;
+	margin-right: 6px;
+	padding-right: 6px;
+	cursor: pointer;
+	color: #666;
+	font-size: 12px;
+	padding-left: 22px;
+	background: url('../rescourse/images/cn.png') no-repeat;
+	background-size: 20px;
+	line-height: 20px;
+}
+
+.header .contactBox .lanBox .enBtn{
+	color: #666;
+	font-size: 12px;
+	cursor: pointer;
+	padding-left: 22px;
+	background: url('../rescourse/images/en.png') no-repeat;
+	background-size: 20px;
+	line-height: 20px;
+}
+.header .contactWay{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .contactWay .contactIcon{
+	margin-right: 10px;
+}
+.header .contactWay .contactIcon img{width: 36px;}
+.header .contactWay .contactUs .title{
+	color: #666;
+	font-size: 12px;
+}
+.header .contactWay .contactUs .contactNum{
+	color: #307ee7;
+	font-size: 20px;
+}
+
+.header .navList{font-size: 14px;color: #fff;background: #307ee6;height: 50px;}
+.header .navList>.content>div>ul{display: inline-block;}
+.header .navList>.content>div>ul>li{
+	float: left;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+
+	cursor: pointer;
+	background: #307ee6;
+	transition: background-color 0.5s ease;
+}
+.header .navList>.content>div>ul>li a{
+	padding: 0 28px;
+}
+.header .navList>.content>div>ul>li:hover{
+	background: #1d5fb7;
+	transition: background-color 0.5s ease;
+}
+.header .navList>.content>div>ul>li:hover ul{
+	 visibility: visible;/* 可见 */
+	 opacity: 1;
+	 pointer-events: auto;
+}
+.header .navList>.content>div>ul>li.active{
+	background: #1d5fb7;
+	transition: background-color 0.5s ease;
+}
+.header .navList>.content>div>ul>li>ul>li:hover{
+	background: #1d5fb7;
+	transition: background-color 0.5s ease;
+}
+.header .navList>.content>div>ul>li>ul>li{
+	background: #307ee6;
+	transition: background-color 0.5s ease;
+	width: 260px;
+}
+.header .navList>.content>div>ul>li>ul{
+	position: absolute;
+	background: #307ee6;
+	top: 50px;
+	left: 0px;
+	z-index: 99;
+	opacity: 0;
+	pointer-events: none;
+	transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+.footer{
+	background: #999;
+	color:#fff;
+	font-size:14px;
+	text-align: center;
+	padding: 20px 0;
+	line-height: 28px;
+	margin-top: 28px;
+}
