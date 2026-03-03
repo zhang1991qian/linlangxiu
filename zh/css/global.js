@@ -28,8 +28,8 @@ $(document).ready(function() {
                 href += '&lang=en';
             }
         } else {
-            // 无参数：添加 ?lang=en
-            href += '?lang=en';
+            // 无参数：添加 ?lang=zh
+            href += '?lang=zh';
         }
 
         // 将处理后的href赋值回a标签
