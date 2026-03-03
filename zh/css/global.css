@@ -49,7 +49,7 @@ a{
 	color: #666;
 	font-size: 12px;
 	padding-left: 22px;
-	background: url('../rescourse/images/cn.png') no-repeat;
+	background: url('../resource/images/cn.png') no-repeat;
 	background-size: 20px;
 	line-height: 20px;
 }
@@ -59,7 +59,7 @@ a{
 	font-size: 12px;
 	cursor: pointer;
 	padding-left: 22px;
-	background: url('../rescourse/images/en.png') no-repeat;
+	background: url('../resource/images/en.png') no-repeat;
 	background-size: 20px;
 	line-height: 20px;
 }
@@ -88,7 +88,7 @@ a{
 	position: relative;
 	height: 50px;
 	line-height: 50px;
-	
+
 	cursor: pointer;
 	background: #307ee6;
 	transition: background-color 0.5s ease;
@@ -102,7 +102,7 @@ a{
 }
 .header .navList>.content>div>ul>li:hover ul{
 	 visibility: visible;/* 可见 */
-	 opacity: 1; 
+	 opacity: 1;
 	 pointer-events: auto;
 }
 .header .navList>.content>div>ul>li.active{

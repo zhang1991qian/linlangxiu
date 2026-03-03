@@ -39,14 +39,14 @@
 }
 .businessBox .content{
 	height: 600px;
-	background: url('../rescourse/images/map.png') no-repeat center center;
+	background: url('../resource/images/map.png') no-repeat center center;
 	background-size: cover;
 }
 .businessList{
 	display: inline-block;
 	width: 100%;
 	height: 600px;
-	background: url('../rescourse/images/business.png') no-repeat center center;
+	background: url('../resource/images/business.png') no-repeat center center;
 	background-size: 500px;
 	display: flex;
 	align-items: center;
@@ -78,7 +78,7 @@
 }
 .businessList .listBox .icon img{
 	width: 48px;
-	
+
 }
 .businessList .listBox .itemDesc{
 	font-size: 14px;

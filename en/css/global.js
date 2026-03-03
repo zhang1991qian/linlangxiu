@@ -4,14 +4,14 @@ $('.enBtn').click(() => {
 })
 
 $('.chBtn').click(() => {
-	window.location = local.pathname+'?lang=ch'
+	window.location = local.pathname+'?lang=zh'
 })
 
 
 $(document).ready(function() {
     // 遍历页面中所有的a标签
     $('a').each(function() {
-		
+
         // 获取当前a标签的href属性值
         let href = $(this).attr('href');
         console.log('href',href)

@@ -49,7 +49,7 @@ a{
 	color: #666;
 	font-size: 12px;
 	padding-left: 22px;
-	background: url('../rescourse/images/cn.png') no-repeat;
+	background: url('../resource/images/cn.png') no-repeat;
 	background-size: 20px;
 	line-height: 20px;
 }
@@ -59,7 +59,7 @@ a{
 	font-size: 12px;
 	cursor: pointer;
 	padding-left: 22px;
-	background: url('../rescourse/images/en.png') no-repeat;
+	background: url('../resource/images/en.png') no-repeat;
 	background-size: 20px;
 	line-height: 20px;
 }
