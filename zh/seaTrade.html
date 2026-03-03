@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>琳琅秀</title>
+		<link rel="stylesheet" href="./css/global.css">
+		<style>
+			.mainTitle{
+				background: url('./rescourse/images/banner01.jpg') no-repeat center center;
+				background-size: cover;
+				height: 600px;
+				position: relative;
+			}
+			.mainTitle .title{
+				font-size: 34px;
+				position: absolute;
+				left: 300px;
+				top: 200px;
+				color: #fff;
+				font-weight: bold;
+				font-family: ;
+				text-shadow: 
+					1px 1px 0 #666,
+					-1px 1px 0 #666,
+					1px -1px 0 #666,
+					-1px -1px 0 #666;
+			}
+			.mainList{
+				display: flex;
+				gap: 0 2px;
+				justify-content: center;
+				position: relative;
+				top: -20px;
+			}
+			.mainList>div>a{
+				width: 140px;
+				text-align: center;
+				display: inline-block;
+			}
+			.mainList>div>a>p{
+				background:#307ee6 ;
+				color: #fff;
+				padding: 10px 0;
+				margin-bottom: 4px;
+			}
+			.descContetn{
+				display: flex;
+				justify-content: center;
+			}
+			.descContetn .desc{
+				width: 520px;
+			}
+			.descContetn .desc .title{
+				display: flex;
+				align-items: center;
+				gap: 0 6px;
+			}
+			.descContetn .desc img{
+				height: 60px;
+			}
+			.descContetn .desc .title span{
+				font-size: 24px;
+			}
+			.descContetn .desc .text{
+				margin-top: 20px;
+				font-size: 16px;
+				line-height: 26px;
+			}
+			.descContetn .imgBox {
+				margin-left: 10px;
+				border: 2px solid #307ee6;
+				height: 425px;
+			}
+			.descContetn .imgBox img{
+				position: relative;
+				top: 10px;
+				left: 10px;
+			}
+			.pointB::before{
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				content:'';
+				border-radius: 5px;
+				margin-right: 4px;
+				background: #000;
+			}
+			.text{line-height: 32px;}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="content">
+				<div class="logoBox">
+					<div class="logo">
+						<img src="./rescourse/images/logo.jpg" alt="">
+					</div>
+					<div class="contactBox">
+						<div class="lanBox">
+							<div class="chBtn">简体中文</div>
+							<div class="enBtn">English</div>
+						</div>
+						<div class="contactWay">
+							<div class="contactIcon">
+								<img src="./rescourse/images/telephone.png" alt="">
+							</div>
+							<div class="contactUs">
+								<div class="title">联系电话：</div>
+								<div class="contactNum">+86-18701950996</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navList">
+				<div class="content">
+					<div class="navBox">
+						<ul>
+							<li ><a href="./index.html">首页</a></li>
+							<li><a href="./about.html">关于我们</a></li>
+							<li style="padding: 0 28px;" class="active">
+								产品与服务
+								<ul>
+									<li><a href="./seaTrade.html">海运出口</a></li>
+									<li><a href="./airTrade.html">空运出口</a></li>
+									<li><a href="./importTrade.html">海、空运进口</a></li>
+									<li><a href="./agentTrade.html">代理完善网络</a></li>
+									<li><a href="./dangerousExport.html">危险品小样出口</a></li>
+									<li><a href="./airCold.html">航空冷链运输</a></li>
+								</ul>
+							</li>
+							<li><a href="./contact.html">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainTitle">
+			<div class="title">业务范围</div>
+		</div>
+		<div class="content">
+			<div class="mainList">
+				<div>
+					<a href="./seaTrade.html">
+						<p>海运出口</p>
+						<div class="icon"><img src="./rescourse/images/hy.png" style="width: 45px;" alt=""></div>
+					</a>
+				</div>
+				<div>
+					<a href="./airTrade.html">
+						<p>空运出口</p>
+						<div class="icon"><img src="./rescourse/images/ky.png" style="width: 45px;" alt=""></div>
+					</a>
+				</div>
+				<div>
+					<a href="./importTrade.html">
+						<p>海、空运进口</p>
+						<div class="icon"><img src="./rescourse/images/hky.png" style="width: 45px;" alt=""></div>
+					</a>
+				</div>
+				<div>
+					<a href="./agentTrade.html">
+						<p>代理完善网络</p>
+						<div class="icon"><img src="./rescourse/images/wl.png" style="width: 45px;" alt=""></div>
+					</a>
+				</div>
+				<div>
+					<a href="./dangerousExport.html">
+						<p>危险品小样出口</p>
+						<div class="icon"><img src="./rescourse/images/wxp.png" style="width: 45px;" alt=""></div>
+					</a>
+				</div>
+				<div>
+					<a href="./airCold.html">
+						<p>航空冷链运输</p>
+						<div class="icon"><img src="./rescourse/images/hkll.png" style="width: 45px;" alt=""></div>
+					</a>
+				</div>
+			</div>
+			<div class="descContetn">
+				<div class="desc">
+					<div class="title">
+						<img src="./rescourse/images/hy.png" alt="">
+						<span>海运出口</span>
+					</div>
+					<div class="text">
+						<p>作为无船承运人，琳琅秀与多家航运公司拥有合作关系，舱位有保障且能够获得具有竞争力的价格。并致力于提供一系列进出口海运服务，如整箱、拼箱的出口、仓库内装、集装箱拖车进港、报关等。我司多年的港口操作在港区拥有不少人脉，在船公司仓位紧张的情况下可提供盯箱上船的服务，为服务的准时出运提供有力保障。</p>
+						<p style="margin-top: 10px;">我司对于海运出口可为客户提供的服务：</p>
+						<p class="pointB">海运运输咨询、路线规划，为客户选择合适的船公司和航线。</p>
+						<p class="pointB">代做代拉化工鉴定和危特分类鉴定等。（您只要把需要的资料和样品寄给我们，由我们和鉴定机构来对接，省去贵司和鉴定机构沟通、送样等繁琐流程）</p>
+						<p class="pointB">我司在洋山和外港都有内装仓库，可为客户提供内装箱、落箱、预进港等，还可提供加固、打托、贴标签、换包装、拍照等各类服务。对于危险品内装货物还可提货仓库出证、船边直装等服务。</p>
+						<p class="pointB">可提供集装箱到工厂上门拖车进港，我司有稳定可靠的集装箱车队供应商。</p>
+						<p class="pointB">司还有丰富的罐箱出口经验，可提供上海港、宁波港出口危险品罐箱的业务。</p>
+						<p class="pointB">我司合作的主要船公司</p>
+					</div>
+				</div>
+				<div class="imgBox">
+					<img src="./rescourse/images/hybg.jpg" style="width: 640px;height: 425px;" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>版权所有 上海琳琅秀供应链管理有限公司</p>
+			<p>地址：上海市浦东新区施湾七路1018号6号楼5楼518室</p>
+		</div>
+	</body>
+</html>
+<script src="./js/jquery-4.0.0.min.js"></script>
+<script src="./css/global.js?lang=en"></script>
